@@ -10,8 +10,6 @@ from setuptools import setup
 site.ENABLE_USER_SITE = "--user" in sys.argv[1:]
 
 
-
-
 # Warn if we are installing over top of an existing installation. This can
 # cause issues where files that were deleted from a more recent Django are
 # still present in site-packages. See #18115.
