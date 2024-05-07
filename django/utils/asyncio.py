@@ -4,6 +4,7 @@ from functools import wraps
 
 from django.core.exceptions import SynchronousOnlyOperation
 
+
 def async_unsafe(message):
     """
     Decorator to mark functions as async-unsafe. Someone trying to access
