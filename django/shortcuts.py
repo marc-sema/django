@@ -13,7 +13,6 @@ from django.http import (
 from django.template import loader
 
 from django.urls import NoReverseMatch, reverse
-
 from django.utils.functional import Promise
 
 
