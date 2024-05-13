@@ -13,6 +13,10 @@ class AbsoluteUrlOverrideTests(SimpleTestCase):
         def get_absolute_url(o):
             return "/test-a/%s/" % o.pk
 
+
+
+
+        
         TestA = self._create_model_class("TestA", get_absolute_url)
 
         self.assertTrue(hasattr(TestA, "get_absolute_url"))
@@ -51,6 +55,10 @@ class AbsoluteUrlOverrideTests(SimpleTestCase):
             obj = TestC(pk=1, name="Foo")
             self.assertEqual("/test-c/%s/" % obj.pk, obj.get_absolute_url())
 
+
+
+
+    
     def _create_model_class(self, class_name, get_absolute_url_method=None):
         attrs = {
             "name": models.CharField(max_length=50),
