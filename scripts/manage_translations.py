@@ -20,11 +20,9 @@
 
 import os
 
-
 from argparse import ArgumentParser
 
 from subprocess import run
-
 
 import django
 from django.conf import settings
