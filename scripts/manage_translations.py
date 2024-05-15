@@ -19,10 +19,10 @@
 #  $ python scripts/manage_translations.py lang_stats --language=es --resources=admin
 
 import os
+
 from argparse import ArgumentParser
 
 from subprocess import run
-
 
 import django
 from django.conf import settings

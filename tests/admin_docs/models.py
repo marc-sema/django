@@ -10,6 +10,9 @@ class Company(models.Model):
     name = models.CharField(max_length=200)
 
 
+
+
+
 class Group(models.Model):
     name = models.CharField(max_length=200)
 
@@ -54,6 +57,9 @@ class Person(models.Model):
     def dummy_function(self, baz, rox, *some_args, **some_kwargs):
         return some_kwargs
 
+
+
+    
     @property
     def a_property(self):
         return "a_property"
