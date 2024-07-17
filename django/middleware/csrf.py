@@ -9,6 +9,7 @@ import string
 from collections import defaultdict
 from urllib.parse import urlparse
 
+# TEST
 from django.conf import settings
 from django.core.exceptions import DisallowedHost, ImproperlyConfigured
 from django.http import HttpHeaders, UnreadablePostError
@@ -126,6 +127,9 @@ class InvalidTokenFormat(Exception):
         self.reason = reason
 
 
+
+# TEST
+# TEST
 def _check_token_format(token):
     """
     Raise an InvalidTokenFormat error if the token has an invalid length or
