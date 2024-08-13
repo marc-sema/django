@@ -19,12 +19,6 @@ from setuptools import setup
 # TEST
 # TEST
 # TEST
-# TEST
-# TEST
-# TEST
-# TEST
-# TEST
-# TEST
 
 
 # Allow editable install into user site directory.
